@@ -1,0 +1,9 @@
+CREATE DATABASE thach_db;
+USE thach_db;
+
+CREATE TABLE PRODUCTS (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    ProductName VARCHAR(255) NOT NULL,
+    Price DECIMAL(18,2) NOT NULL,
+    Description TEXT
+);
